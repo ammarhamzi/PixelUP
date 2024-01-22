@@ -7,20 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1RufGXUNy-7zx5biALX7zEgXb0rM9cWnb
 """
 
-import os
-os.sys.path
-
-!pip install opencv-python
-
-!pip install basicsr
-!pip install facexlib
-!pip install gfpgan
-!pip install tqdm
-!pip install -U gradio
-
-# Commented out IPython magic to ensure Python compatibility.
-# %pip install realesrgan
-
 import gradio as gr
 import cv2
 import numpy
